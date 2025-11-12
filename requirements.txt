@@ -1,9 +1,9 @@
 cvzone
-ultralytics==8.0.26
+ultralytics>=8.0.100,<9
 hydra-core
 matplotlib
 numpy
-opencv-python
+opencv-python-headless>=4.8,<5
 Pillow
 PyYAML
 requests
@@ -17,3 +17,6 @@ lap
 flask_wtf
 WTForms
 Flask-WTF
+flask
+gunicorn
+torch>=2.2,<3
